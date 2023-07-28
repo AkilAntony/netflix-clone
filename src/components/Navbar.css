@@ -1,0 +1,32 @@
+.Navbar{
+    height:70px;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top:0;
+    align-items: center;
+}
+.logo{
+
+    width:100px;
+    left:20px;
+    object-fit: contain;
+    position: fixed;
+     
+}
+.avatar{
+    object-fit: contain;
+    position: fixed;
+    right:20px;
+    width:30px;
+    
+}
+
+
+@media(max-width:400px){
+    .avatar{
+        padding-left:15.8rem;
+        height:36px
+    }
+}

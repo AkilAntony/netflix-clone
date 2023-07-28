@@ -1,0 +1,28 @@
+.row{
+    margin-left: 20px;
+    color:white;
+}
+.moviePosterContainer{
+    display: flex;
+    padding: 20px;
+    overflow-y: hidden;
+    
+}
+.moviePosterContainer::-webkit-scrollbar{
+    display: none;
+}
+.moviePoster{
+    width:100%;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 420ms;
+}
+.moviePoster:hover{
+    transform: scale(1.08);
+}
+.largeMoviePoster{
+    max-height: 200px;
+}
+.largeMoviePoster:hover{
+    transform: scale(1.09);
+}

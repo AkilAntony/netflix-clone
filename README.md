@@ -1,3 +1,41 @@
+# Netflix Movie Trailer App
+
+This Netflix design project is a web application that fetches movie posters and trailers from the TMDB (The Movie Database) API. Users can click on movie posters to play the trailers for specific movies.
+
+## Features
+
+- Display of movie posters fetched from the TMDB database.
+- Ability to play movie trailers by clicking on the respective movie posters.
+- Integration with the TMDB API to retrieve movie data including posters and trailers
+
+## Usage
+
+- Upon opening the application, users will see a grid of movie posters fetched from the TMDB database.
+- Clicking on a movie poster will play the trailer for the respective movie.
+
+## Technologies Used
+
+- React.js: JavaScript library for building user interfaces.
+- TMDB API: Provides access to movie data including posters and trailers.
+- Axios: Promise-based HTTP client for making API requests.
+- HTML5 & CSS3: For structuring and styling the web application.
+
+## Credits
+
+- The Movie Database (TMDB): Provides movie data and media assets.
+- React.js community: For providing documentation and resources for React development
+
+## Installation
+
+1. Clone the repository using the below command
+    git clone <repository-url>
+2. Navigate to the project directory
+    cd netflix-clone
+3. Install all the dependencies, using the below command
+    npm install ||  yarn install
+4. Start the development server:
+     npm start
+   
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
